@@ -116,20 +116,20 @@ header .header-content .down-header .left-bar .header-icons {
 }
 header .header-content .down-header .left-bar .header-icons .icon-wrapper {
   display: inline-block;
-  background-color: #2f7cff;
   padding: 7px;
   border-radius: 100%;
   height: 38px;
   width: 38px;
   margin-right: 15px;
+  background-color: #2f7cff;
 }
-header .header-content .down-header .left-bar .header-icons .icon-wrapper:nth-child(3) span {
+header .header-content .down-header .left-bar .header-icons .icon-wrapper:nth-child(3) a span {
   padding-left: 2px;
 }
-header .header-content .down-header .left-bar .header-icons .icon-wrapper:last-child span {
+header .header-content .down-header .left-bar .header-icons .icon-wrapper:last-child a span {
   padding-left: 10px;
 }
-header .header-content .down-header .left-bar .header-icons .icon-wrapper span {
+header .header-content .down-header .left-bar .header-icons .icon-wrapper a span {
   font-size: 30px;
   color: #fff;
   padding-top: 6px;
@@ -330,4 +330,53 @@ header .header-content .down-header .right-bar img {
   margin-left: 60px;
   padding: 10px 30px;
   border-radius: 5px;
+}
+.search {
+  padding: 100px 0;
+}
+.search .search-content .search-heading h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #ff850f;
+}
+.search .search-content .search-heading-two {
+  padding-top: 50px;
+}
+.search .search-content .search-heading-two h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: rgba(33, 91, 190, 0.9);
+}
+.search .search-content .search-txt {
+  padding-top: 60px;
+}
+.search .search-content .search-txt p {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(33, 91, 190, 0.9);
+}
+.search .search-content .input-email {
+  padding-left: 180px;
+  padding-top: 60px;
+}
+.search .search-content .input-email input {
+  border: 2px solid #2F7CFF;
+  border-radius: 40px;
+  width: 950px;
+  height: 40px;
+  outline: none;
+}
+.search .search-content .input-email input::placeholder {
+  padding-left: 140px;
+  color: rgba(33, 91, 190, 0.7);
+}
+.search .search-content .input-email button {
+  padding: 13px 65px 15px;
+  margin-left: -40px;
 }

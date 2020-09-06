@@ -129,30 +129,36 @@ header {
 
                 .icon-wrapper {
                     display: inline-block;
-                    background-color: rgb(47,124,255);
                     padding: 7px;
                     border-radius: 100%;
                     height: 38px;
                     width: 38px;
                     margin-right: 15px;
+                    background-color: rgb(47,124,255);
 
                     &:nth-child(3) {
-                        span {
-                            padding-left: 2px;
+                        a {
+                            span {
+                                padding-left: 2px;
+                            }
                         }
                     }
 
                     &:last-child {
-                        span {
-                            padding-left: 10px;
+                        a {
+                            span {
+                                padding-left: 10px;
+                            }
                         }
                     }
 
-                    span {
-                        font-size: 30px;
-                        color: #fff;
-                        padding-top: 6px;
-                        padding-left: 5px;
+                    a {
+                        span {
+                            font-size: 30px;
+                            color: #fff;
+                            padding-top: 6px;
+                            padding-left: 5px;
+                        }
                     }
                 }
             }
@@ -422,6 +428,69 @@ header {
                     padding: 10px 30px;
                     border-radius: 5px;
                 }
+            }
+        }
+    }
+}
+
+.search {
+    padding: 100px 0;
+
+    .search-content {
+        .search-heading {
+            h2 {
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 42px;
+                text-align: center;
+                color: #ff850f;                
+            }
+        }
+
+        .search-heading-two {
+            padding-top: 50px;
+
+            h2 {
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 42px;
+                text-align: center;
+                color: rgba(33, 91, 190, 0.9);                
+            }
+        }
+
+        .search-txt {
+            padding-top: 60px;
+
+            p {
+                font-weight: 500;
+                font-size: 26px;
+                line-height: 30px;
+                text-align: center;       
+                color: rgba(33, 91, 190, 0.9);                 
+            }
+        }
+
+        .input-email {
+            padding-left: 180px;
+            padding-top: 60px;
+            
+            input {
+                border: 2px solid #2F7CFF;
+                border-radius: 40px;   
+                width: 950px;
+                height: 40px;
+                outline: none;
+                
+                &::placeholder {
+                    padding-left: 140px;
+                    color: rgba(33, 91, 190, 0.7);
+                }
+            }
+
+            button {
+                padding: 13px 65px 15px;
+                margin-left: -40px;
             }
         }
     }
