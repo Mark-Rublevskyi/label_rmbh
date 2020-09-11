@@ -41,50 +41,6 @@ a {
   cursor: pointer;
   box-shadow: 1px 8px 25px -13px rgba(0, 0, 0, 0.4);
 }
-header .header-content .top-header {
-  padding: 60px 0;
-}
-header .header-content .top-header .header-logo {
-  display: inline-block;
-}
-header .header-content .top-header .header-logo span {
-  float: right;
-  color: rgba(33, 91, 190, 0.9);
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 26px;
-  padding: 33px 0 0 15px;
-}
-header .header-content .top-header .right-bar {
-  float: right;
-  padding-top: 16px;
-}
-header .header-content .top-header .right-bar .header-menu {
-  display: inline-block;
-  padding-right: 67px;
-}
-header .header-content .top-header .right-bar .header-menu li {
-  display: inline-block;
-  padding: 0 10px;
-}
-header .header-content .top-header .right-bar .header-menu li a {
-  color: rgba(33, 91, 190, 0.9);
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-}
-header .header-content .top-header .right-bar button {
-  display: inline-block;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  padding: 17px 55px;
-  text-align: center;
-}
-header .header-content .top-header .right-bar button span {
-  color: #fff;
-  padding-right: 5px;
-}
 header .header-content .down-header {
   overflow: auto;
   padding-bottom: 100px;
@@ -142,6 +98,50 @@ header .header-content .down-header .right-bar {
 }
 header .header-content .down-header .right-bar img {
   padding-left: 150px;
+}
+.footer-header {
+  padding: 60px 0;
+}
+.footer-header .header-logo {
+  display: inline-block;
+}
+.footer-header .header-logo span {
+  float: right;
+  color: rgba(33, 91, 190, 0.9);
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  padding: 33px 0 0 15px;
+}
+.footer-header .right-bar {
+  float: right;
+  padding-top: 16px;
+}
+.footer-header .right-bar .header-menu {
+  display: inline-block;
+  padding-right: 67px;
+}
+.footer-header .right-bar .header-menu li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.footer-header .right-bar .header-menu li a {
+  color: rgba(33, 91, 190, 0.9);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer-header .right-bar button {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 17px 55px;
+  text-align: center;
+}
+.footer-header .right-bar button span {
+  color: #fff;
+  padding-right: 5px;
 }
 .service {
   padding: 100px 0;
@@ -376,7 +376,163 @@ header .header-content .down-header .right-bar img {
   padding-left: 140px;
   color: rgba(33, 91, 190, 0.7);
 }
+.search .search-content .input-email input:focus {
+  border-color: rgba(33, 91, 190, 0.9);
+}
 .search .search-content .input-email button {
   padding: 13px 65px 15px;
   margin-left: -40px;
+}
+.kundenmeinungen {
+  background: rgba(33, 91, 190, 0.9);
+  padding: 100px 0;
+}
+.kundenmeinungen .kundenmeinungen-heading h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #fff;
+}
+.kundenmeinungen .slick {
+  padding-top: 50px;
+  width: 90%;
+  margin-left: 100px;
+}
+.kundenmeinungen .slick .slick-block {
+  background-color: #fff;
+  padding: 50px 30px;
+  border-radius: 10px;
+  margin-right: 150px;
+}
+.kundenmeinungen .slick .slick-block .block-txt p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #215BBE;
+}
+.kundenmeinungen .slick .slick-block .block-footer {
+  padding-top: 20px;
+}
+.kundenmeinungen .slick .slick-block .block-footer .avatar {
+  display: inline-block;
+}
+.kundenmeinungen .slick .slick-block .block-footer .avatar span {
+  float: right;
+  padding: 10px 0;
+  color: #215BBE;
+  font-weight: 600;
+}
+.kundenmeinungen .slick .slick-block .block-footer .stars {
+  display: inline-block;
+  float: right;
+  padding-top: 10px;
+}
+.kundenmeinungen .slick .slick-block .block-footer .stars span {
+  color: #ff8500;
+}
+.kundenmeinungen button {
+  margin-top: 50px;
+  margin-left: 645px;
+  padding: 15px;
+}
+.kontakt {
+  background: #EAF2FF;
+  padding: 100px 0;
+}
+.kontakt .kontakt-content .kontakt-header .kontakt-heading h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: rgba(33, 91, 190, 0.9);
+  text-align: center;
+}
+.kontakt .kontakt-content .kontakt-header .kontakt-txt {
+  padding-top: 20px;
+}
+.kontakt .kontakt-content .kontakt-header .kontakt-txt p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: rgba(33, 91, 190, 0.9);
+  text-align: center;
+}
+.kontakt .kontakt-content form {
+  margin-top: 70px;
+  background-color: #fff;
+  padding: 100px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19);
+}
+.kontakt .kontakt-content form .name {
+  display: inline-block;
+  width: 25%;
+  padding-left: 100px;
+  padding-bottom: 60px;
+}
+.kontakt .kontakt-content form .name:first-child {
+  padding-left: 60px;
+}
+.kontakt .kontakt-content form .name p {
+  font-weight: bold;
+  font-family: Roboto;
+  color: rgba(33, 91, 190, 0.9);
+}
+.kontakt .kontakt-content form .name input {
+  margin-top: 12px;
+  width: 85%;
+  outline: none;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #E0E0E0;
+}
+.kontakt .kontakt-content form .message {
+  padding-left: 60px;
+}
+.kontakt .kontakt-content form .message p {
+  font-weight: bold;
+  font-family: Roboto;
+  color: rgba(33, 91, 190, 0.9);
+}
+.kontakt .kontakt-content form .message textarea {
+  width: 91.6%;
+  margin-top: 12px;
+  outline: none;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid #E0E0E0;
+}
+.kontakt .kontakt-content form .checkbox {
+  width: 85%;
+  padding-left: 65px;
+  padding-top: 30px;
+}
+.kontakt .kontakt-content form .checkbox input {
+  display: inline-block;
+  cursor: pointer;
+}
+.kontakt .kontakt-content form .checkbox p {
+  display: inline-block;
+  float: right;
+  width: 95%;
+  padding-right: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: Roboto;
+  color: rgba(33, 91, 190, 0.9);
+}
+.kontakt .kontakt-content form .btn {
+  padding: 15px 55px;
+  margin: 30px 65px;
+}
+.copyright {
+  background: rgba(33, 91, 190, 0.9);
+  padding: 20px 0;
+}
+.copyright .copyright-txt {
+  text-align: center;
+}
+.copyright .copyright-txt p {
+  color: #fff;
 }
